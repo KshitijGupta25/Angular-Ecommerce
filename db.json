@@ -1,0 +1,73 @@
+{
+  "seller": [
+    {
+      "name": "Kshitij",
+      "email": "kshitij@abc.com",
+      "password": "1234",
+      "id": "KNuvXi20dl4"
+    },
+    {
+      "name": "Sam",
+      "email": "sam@abc.com",
+      "password": "5678",
+      "id": "KOrTbLoFkWI"
+    },
+    {
+      "name": "riya",
+      "password": "Riya@123",
+      "email": "riya025@gmail.com",
+      "id": "oCQNP45lfxA"
+    },
+    {
+      "name": "shivani",
+      "password": "Shivani@123",
+      "email": "shivani,vahi@gmail.com",
+      "id": "JSHbJbPR6jw"
+    },
+    {
+      "name": "bruce",
+      "password": "Bruce@123",
+      "email": "bruce025@gmail.com",
+      "id": "zNVrKvUgnrE"
+    },
+    {
+      "name": "newone",
+      "password": "Newone@123",
+      "email": "new@gmail.com",
+      "id": "JfPpmby2tCM"
+    },
+    {
+      "name": "hello",
+      "password": "Hello@123",
+      "email": "hello@gmail.com",
+      "id": "5j8nHARHR40"
+    },
+    {
+      "name": "happy",
+      "password": "Happy@123",
+      "email": "happy@gmail.com",
+      "id": "4eou2CAAuaE"
+    }
+  ],
+  "products": [
+    {
+      "name": "Asus Vivobook 15",
+      "price": "45000",
+      "color": "Silver",
+      "category": "Laptop",
+      "description": "Sleek design and lightweight laptop with the i3 processor",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4z8W20aqpzx4Z9ViU6rRD70ANNMj5LZQ1qORu0U2OtA&s=10",
+      "id": "YYLQueKCVpA"
+    },
+    {
+      "name": "HP Desktop",
+      "price": "20000",
+      "color": "Black",
+      "category": "Desktop",
+      "description": "Anti glare screen with bluetooth connectivity",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Fkg57NMp1BdVawW6YaOl_6HdRJzEOlX1X2BIY7GgcQ&s=10",
+      "id": "X8P13_2Z7UU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
