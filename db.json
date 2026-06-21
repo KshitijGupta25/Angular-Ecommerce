@@ -67,6 +67,24 @@
       "description": "Anti glare screen with bluetooth connectivity",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Fkg57NMp1BdVawW6YaOl_6HdRJzEOlX1X2BIY7GgcQ&s=10",
       "id": "X8P13_2Z7UU"
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "45000000",
+      "color": "Red",
+      "category": "Shoes",
+      "description": "Premium shoes with best fit",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSgGRpRgDTdejwry0vswiFZePSEVhK_6Ou0J6RjU7C-zc1h-PoiWO7xYdsER6amRkq080O0EYqGKphhsHCKVa6h2vF_ClR4puGl80sjadmTd1NCO2oh0gsyH4V_SpJRsoZIP57V9g&usqp=CAc",
+      "id": "3"
+    },
+    {
+      "name": "Apple iPhone 17 Pro Max",
+      "price": "150000",
+      "color": "Orange",
+      "category": "Smartphone",
+      "description": "New iPhone in Cosmic Orange color with better battery backup and durability",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRyiS5zS9A9zfcXxt1RvxSJkf2Tzlj-7zIvd91HTEIDwl3Frus4kfd3bL6xQZteQkOKxsvfOFFqTLGE_5D_Nnc8fsqjQ6fE7SybntL57Khser-nAZAMjZQZChs4lowM2MeJnDfiSyMu&usqp=CAc",
+      "id": "4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -1,1 +1,17 @@
-<h1>Home</h1>
+
+@if (popularProductList()) {
+	<ngb-carousel>
+		@for(item of popularProductList(); track item.id)
+		{
+			<ng-template ngbSlide>
+				<div class="picsum-img-wrapper">
+					<img src="{{item.image}}" class="product-header-img" alt="Random first slide" />
+				</div>
+				<div class="carousel-caption">
+					<h3>{{item.name}}</h3>
+					<p>{{item.description}}</p>
+				</div>
+			</ng-template>
+		}
+	</ngb-carousel>
+}

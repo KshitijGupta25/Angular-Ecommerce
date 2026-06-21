@@ -35,3 +35,13 @@ body{
     color: green;
     font-weight: bold;
 }
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.215);
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black;
+    border:5px;
+}
