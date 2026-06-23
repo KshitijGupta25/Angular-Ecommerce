@@ -13,6 +13,7 @@ import { CommonModule } from '@angular/common';
 export class Home implements OnInit{
   images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
   popularProductList = signal<product[]>([]);
+  trendyProducts = signal<product[]>([]);
   
   constructor(private product: Product){}
 
@@ -21,6 +22,10 @@ export class Home implements OnInit{
       console.log("Popular products list----", result)
       this.popularProductList.set(result);
       console.warn(this.popularProductList());
+    });
+
+    this.product.getTrendyProducts().subscribe((data)=>{
+      this.trendyProducts.set(data);
     });
   }
 

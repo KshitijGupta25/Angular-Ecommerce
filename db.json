@@ -57,7 +57,7 @@
       "category": "Laptop",
       "description": "Sleek design and lightweight laptop with the i3 processor",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4z8W20aqpzx4Z9ViU6rRD70ANNMj5LZQ1qORu0U2OtA&s=10",
-      "id": "YYLQueKCVpA"
+      "id": "1"
     },
     {
       "name": "HP Desktop",
@@ -66,7 +66,7 @@
       "category": "Desktop",
       "description": "Anti glare screen with bluetooth connectivity",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Fkg57NMp1BdVawW6YaOl_6HdRJzEOlX1X2BIY7GgcQ&s=10",
-      "id": "X8P13_2Z7UU"
+      "id": "2"
     },
     {
       "name": "Nike Shoes",
@@ -85,6 +85,42 @@
       "description": "New iPhone in Cosmic Orange color with better battery backup and durability",
       "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRyiS5zS9A9zfcXxt1RvxSJkf2Tzlj-7zIvd91HTEIDwl3Frus4kfd3bL6xQZteQkOKxsvfOFFqTLGE_5D_Nnc8fsqjQ6fE7SybntL57Khser-nAZAMjZQZChs4lowM2MeJnDfiSyMu&usqp=CAc",
       "id": "4"
+    },
+    {
+      "name": "Women Kurta Set",
+      "price": "900",
+      "color": "Maroon",
+      "category": "Clothing",
+      "description": "A semi ethnic design for both office and regular wear",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRPOwVLzPiv_40rcMAtmKkCxe8bYzghVVavq7kHz7VhV4z6qkGXinofEIyhgsMXG2y1wgBfBBC7sz8w6ukUuuvpCrom_HsrvtWkE3MzxsM&usqp=CAc",
+      "id": "5"
+    },
+    {
+      "name": "Titan Watch",
+      "price": "2000",
+      "color": "Black",
+      "category": "Watch",
+      "description": "Titan ceramic fusion automatic black watch",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqRSn225ynUa2eYSho1XQfa2zx0swCF6e9woamQfKq0Q&s=10",
+      "id": "6"
+    },
+    {
+      "name": "Casual Shirt",
+      "price": "1100",
+      "color": "Green",
+      "category": "Clothing",
+      "description": "Mens regular fit checquered spread",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSumt_8WKcgT2fS-AJGpXXU8PhgUNaYQgA0tUVgb3kC5w&s=10",
+      "id": "7"
+    },
+    {
+      "name": "Bellavita Perfume",
+      "price": "999",
+      "color": "Green",
+      "category": "Grooming",
+      "description": "Unisex perfumes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFyvr_nEIu45_9KfWJxBbGqgxoJGtaGWQKud7RAoYA8Q&s",
+      "id": "8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

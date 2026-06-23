@@ -3,8 +3,19 @@
     @if(menuType == "default")
     {
         <div class="nav-search">
-            <input type = "text" placeholder="Search For Products" />
+            <input type = "text" (keyup)="searchText($event)" (blur)="clearSearch()" placeholder="Search For Products" />
             <button>Search</button>
+            @if(searchResult())
+            {
+                <ul class="suggested-result">
+                    @for(item of searchResult(); track item.id)
+                    {
+                        <li>
+                            <a>{{item.name}}</a>
+                        </li>
+                    }
+                </ul>
+            }
         </div>
     }
     @switch(menuType)
