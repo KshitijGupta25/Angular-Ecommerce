@@ -3,8 +3,8 @@
     @if(menuType == "default")
     {
         <div class="nav-search">
-            <input type = "text" (keyup)="searchText($event)" (blur)="clearSearch()" placeholder="Search For Products" />
-            <button>Search</button>
+            <input #searchInput type = "text" (keyup)="searchText($event)" (blur)="clearSearch()" placeholder="Search For Products" />
+            <button [routerLink]="['/search' , searchInput.value]">Search</button>
             @if(searchResult())
             {
                 <ul class="suggested-result">
