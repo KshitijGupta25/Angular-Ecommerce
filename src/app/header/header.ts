@@ -65,4 +65,9 @@ export class Header {
   {
     this.searchResult.set(undefined);
   }
+
+  redirectToDetails(id:string)
+  {
+    this.route.navigate(['details' , id]);
+  }
 }

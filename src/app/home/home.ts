@@ -3,10 +3,11 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { Product } from '../services/product';
 import { product } from '../data-type';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [NgbCarouselModule , CommonModule],
+  imports: [NgbCarouselModule , CommonModule ,RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

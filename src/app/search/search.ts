@@ -2,10 +2,11 @@ import { Component, OnInit, signal } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product } from '../services/product';
 import { product } from '../data-type';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-search',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './search.html',
   styleUrl: './search.css',
 })

@@ -11,7 +11,7 @@
                     @for(item of searchResult(); track item.id)
                     {
                         <li>
-                            <a>{{item.name}}</a>
+                             <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
                         </li>
                     }
                 </ul>
