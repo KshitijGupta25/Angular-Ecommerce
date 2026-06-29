@@ -1,6 +1,6 @@
 <nav class="nav">
     <h1><a routerLink="">E-Comm</a></h1>
-    @if(menuType == "default")
+    @if(menuType == "default" || menuType == "user")
     {
         <div class="nav-search">
             <input #searchInput type = "text" (keyup)="searchText($event)" (blur)="clearSearch()" placeholder="Search For Products" />
@@ -38,6 +38,16 @@
                 <li><a routerLink="seller-home">List</a></li>
                 <li><a (click)="logout()">Logout</a></li>
                 <li><a href="#">{{sellerName  | titlecase}}</a></li>
+            </ul>
+        }
+        @case ('user') 
+        {
+            <ul>
+                <li><a routerLink="">Home</a></li>
+                <li><a routerLink="seller-auth">Seller</a></li>
+                <li><a href="#">{{userName  | titlecase}}</a></li>
+                <li><a (click)="userLogout()">Logout</a></li>
+                <li><a href="#">Cart(0)</a></li>
             </ul>
         }
     }

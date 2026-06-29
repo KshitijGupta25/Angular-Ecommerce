@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SignUp } from '../data-type';
+import { login, SignUp } from '../data-type';
 import { User } from '../services/user';
 
 @Component({
@@ -10,13 +10,33 @@ import { User } from '../services/user';
   templateUrl: './user-auth.html',
   styleUrl: './user-auth.css',
 })
-export class UserAuth {
+export class UserAuth implements OnInit{
 
+  showLogin: boolean = true;
   constructor(private user : User){}
+
+  ngOnInit(): void {
+    this.user.userAuthReload();
+  }
 
   signUp(data:SignUp){
 
     this.user.userSignUp(data);
     // console.warn("User Data is ", data);
+  }
+
+  Login(data:login)
+  {
+    this.user.userLogin(data)
+  }
+
+  openSignUp()
+  {
+    this.showLogin = false;
+  }
+
+  openLogin()
+  {
+    this.showLogin = true;
   }
 }

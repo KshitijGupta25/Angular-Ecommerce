@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: blueviolet;
+}
+
+.footer span{
+    cursor: pointer;
+}

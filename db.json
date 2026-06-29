@@ -135,6 +135,24 @@
       "email": "Peter@gmail.com",
       "password": "Peter@123",
       "id": 2
+    },
+    {
+      "name": "priya",
+      "email": "priya@gmail.com",
+      "password": "Priya@123",
+      "id": 3
+    },
+    {
+      "name": "happy",
+      "email": "happy@gmail.com",
+      "password": "Happy@123",
+      "id": 4
+    },
+    {
+      "name": "Kirti",
+      "email": "Kirti@gmail.com",
+      "password": "Kirti@123",
+      "id": 5
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

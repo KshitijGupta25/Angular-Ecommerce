@@ -14,6 +14,7 @@ export class Header {
 
   menuType: string = 'default';
   sellerName: string = '';
+  userName: string ='';
   searchResult = signal<product[] | undefined>(undefined);
   constructor(private route: Router , private product: Product){}
 
@@ -33,6 +34,13 @@ export class Header {
             this.sellerName = sellerData[0].name;
 
           }
+        }
+        else if(localStorage.getItem('user'))
+        {
+          this.menuType = 'user';
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.name;
         }
         else
         {
@@ -69,5 +77,12 @@ export class Header {
   redirectToDetails(id:string)
   {
     this.route.navigate(['details' , id]);
+  }
+
+  userLogout()
+  {
+    localStorage.removeItem('user');
+    // this.menuType = "default";
+    this.route.navigate(['user-auth']);
   }
 }

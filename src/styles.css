@@ -5,6 +5,9 @@ body{
 .container{
     margin-left: 5%;
     margin-right: 5%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .common-form{
